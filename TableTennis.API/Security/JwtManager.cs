@@ -30,7 +30,8 @@ namespace TableTennis.API.Security
                 {
                     new Claim(ClaimTypes.Name, username)
                 }),
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(symmetricKey), SecurityAlgorithms.HmacSha256Signature)
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(symmetricKey), SecurityAlgorithms.HmacSha256Signature),
+                Expires = DateTime.Now.AddMonths(2)
             };
 
             var stoken = tokenHandler.CreateToken(tokenDescriptor);
@@ -65,7 +66,6 @@ namespace TableTennis.API.Security
 
                 return principal;
             }
-
             catch (Exception)
             {
                 return null;

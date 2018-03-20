@@ -18,5 +18,6 @@ namespace TableTennis.Domain.Models
 
         public string PasswordHash { get; set; }
         public string PasswordSalt { get; set; }
+        public byte[] Picture { get; set; }
     }
 }
