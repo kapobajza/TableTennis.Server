@@ -133,6 +133,7 @@
     <Compile Include="Security\BasicAuthentication.cs" />
     <Compile Include="Security\JwtAuthorization.cs" />
     <Compile Include="Security\JwtManager.cs" />
+    <Compile Include="ViewModels\AddTeamVM.cs" />
     <Compile Include="ViewModels\RegisterUserVM.cs" />
   </ItemGroup>
   <ItemGroup>

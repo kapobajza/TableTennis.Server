@@ -60,6 +60,10 @@
     <Compile Include="Migrations\201803021000582_change1.Designer.cs">
       <DependentUpon>201803021000582_change1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803171611240_change2.cs" />
+    <Compile Include="Migrations\201803171611240_change2.Designer.cs">
+      <DependentUpon>201803171611240_change2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ExceptionLogs.cs" />
     <Compile Include="Models\Match.cs" />
@@ -68,10 +72,12 @@
     <Compile Include="Models\UserTeam.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\Abstract\IRepo.cs" />
+    <Compile Include="Repository\Abstract\ITeamRepo.cs" />
     <Compile Include="Repository\Abstract\IUserRepo.cs" />
     <Compile Include="Repository\Abstract\IUserTeamRepo.cs" />
     <Compile Include="Repository\Concrete\Authentication.cs" />
     <Compile Include="Repository\Concrete\ExceptionLogsRepo.cs" />
+    <Compile Include="Repository\Concrete\TeamRepo.cs" />
     <Compile Include="Repository\Concrete\UserRepo.cs" />
     <Compile Include="Repository\Concrete\UserTeamRepo.cs" />
     <Compile Include="Security\HashingPasswords.cs" />
@@ -87,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803021000582_change1.resx">
       <DependentUpon>201803021000582_change1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803171611240_change2.resx">
+      <DependentUpon>201803171611240_change2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -25,7 +25,7 @@ namespace TableTennis.API.Helper
             {
                 var result = new HttpResponseMessage(System.Net.HttpStatusCode.InternalServerError)
                 {
-                    Content = new StringContent("An error occured."),
+                    Content = new StringContent("An error occured, please contact the administrator for more details."),
                     ReasonPhrase = System.Net.HttpStatusCode.InternalServerError.ToString()
                 };
 

@@ -26,3 +26,4 @@ C:\Users\bridgar\Documents\Visual Studio 2017\Projects\Web APIs\TableTennis.Serv
 C:\Users\bridgar\Documents\Visual Studio 2017\Projects\Web APIs\TableTennis.Server\TableTennis.Domain\obj\Debug\TableTennis.Domain.csproj.CoreCompileInputs.cache
 C:\Users\bridgar\Documents\Visual Studio 2017\Projects\Web APIs\TableTennis.Server\TableTennis.Domain\obj\Debug\TableTennis.Domain.dll
 C:\Users\bridgar\Documents\Visual Studio 2017\Projects\Web APIs\TableTennis.Server\TableTennis.Domain\obj\Debug\TableTennis.Domain.pdb
+C:\Users\bridgar\Documents\Visual Studio 2017\Projects\Web APIs\TableTennis.Server\TableTennis.Domain\obj\Debug\TableTennis.Domain.Migrations.change2.resources

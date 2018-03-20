@@ -31,7 +31,7 @@ namespace TableTennis.API.Controllers
             BasicAuthentication.Authenticate(Request, out TeamsOfUser teamsOfUser);
 
             if (teamsOfUser != null)
-                return Ok(new { teamsOfUser.Token, teamsOfUser.Teams });
+                return Ok(new { teamsOfUser.User.UserId, teamsOfUser.Token, teamsOfUser.Teams });
 
             return BadRequest("Token wasn't generated.");
         }

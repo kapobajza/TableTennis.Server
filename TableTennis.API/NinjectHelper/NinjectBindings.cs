@@ -15,6 +15,7 @@ namespace TableTennis.API.NinjectHelper
         {
             kernel.Bind<IUserRepo>().To<UserRepo>();
             kernel.Bind<IUserTeamRepo>().To<UserTeamRepo>();
+            kernel.Bind<ITeamRepo>().To<TeamRepo>();
         }
     }
 }
